@@ -20,7 +20,7 @@ main {
 }
 .template {
   background-color: #eeeeee;
-  max-width: 80%;
+  max-width: 600px;
   border-radius: 8px;
   margin: 45px auto;
   padding: 3%;
