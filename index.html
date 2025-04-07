@@ -3,39 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Delius&display=swap"
+      rel="stylesheet"
+    />
     <title>Vanilla weather app</title>
   </head>
-  <form>
-    <input type="search" placeholder="Enter a city..." required />
-    <input type="submit" value="search" />
-  </form>
-  <main>
-    <div>
-      <h1>Sydney</h1>
-      <p>
-        Tuesday 06:50, partly cloudy
-        <br />
-        Humidity: 66%, Wind: 3.13 km/h
-      </p>
+  <body>
+    <div class="template">
+      <form class="search-bar">
+        <input
+          type="search"
+          placeholder="Enter a city..."
+          required
+          class="search-city"
+        />
+        <input type="submit" value="Search" class="search-button" />
+      </form>
+      <main>
+        <div class="temperature-data">
+          <div>
+            <h1 class="city">Sydney</h1>
+            <p>
+              Tuesday 06:50, partly cloudy
+              <br />
+              Humidity: <strong>66%</strong>, Wind: <strong>3.13</strong> km/h
+            </p>
+          </div>
+          <div class="value-container">
+            <span class="icon">🌥️</span>
+            <span class="temp-value">12</span>
+            <span class="unit">℃</span>
+          </div>
+        </div>
+      </main>
+      <footer>
+        Coded by
+        <a href="https://github.com/fiftyshaddygirl" target="_blank">
+          Cynthia Kazan</a
+        >
+        is open-sourced on
+        <a
+          href="https://github.com/fiftyshaddygirl/Vanila-weather-forecast"
+          target="_blank"
+        >
+          Github</a
+        >
+        and hosted by
+        <a href="https://vanilla-weatherforecast.netlify.app/" target="_blank">
+          Netlify</a
+        >
+      </footer>
     </div>
-    <div>🌥️ 12℃</div>
-  </main>
-  <footer>
-    Coded by
-    <a href="https://github.com/fiftyshaddygirl" target="_blank">
-      Cynthia Kazan</a
-    >
-    is open-sourced on
-    <a
-      href="https://github.com/fiftyshaddygirl/Vanila-weather-forecast"
-      target="_blank"
-    >
-      Github</a
-    >
-    and hosted by
-    <a href="https://vanilla-weatherforecast.netlify.app/" target="_blank">
-      Netlify</a
-    >
-  </footer>
-  <body></body>
+  </body>
 </html>

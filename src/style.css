@@ -1,0 +1,91 @@
+body {
+  background-color: #141e46;
+  font-family: "Delius", cursive;
+}
+
+a {
+  color: #031839;
+  transition: all 200ms ease;
+}
+
+a:hover {
+  color: #ff597b;
+}
+
+main {
+  padding: 10px 0 20px;
+  margin: 30px 0;
+  border-top: 1px solid rgba(20, 30, 70, 0.1);
+  border-bottom: 1px solid rgba(20, 30, 70, 0.1);
+}
+.template {
+  background-color: #eeeeee;
+  max-width: 80%;
+  border-radius: 8px;
+  margin: 45px auto;
+  padding: 3%;
+}
+
+.search-bar {
+  text-align: center;
+}
+.search-city {
+  background-color: #bad7e9;
+  color: #ff597b;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 16px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.search-button {
+  background-color: #141e46;
+  color: #bad7e9;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 16px;
+  margin: 0 10px auto;
+}
+
+.temperature-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.city {
+  color: #141e46;
+  font-size: 60px;
+  margin: 10px 0 0 0;
+}
+
+.temperature-data strong {
+  color: #ff597b;
+}
+
+.value-container {
+  display: flex;
+}
+
+.icon {
+  font-size: 50px;
+  margin-top: 35px;
+}
+
+.temp-value {
+  font-size: 120px;
+  margin-left: 10px;
+}
+
+.unit {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+}
