@@ -15,19 +15,20 @@
   </head>
   <body>
     <div class="template">
-      <form class="search-bar">
+      <form class="search-bar" id="search-bar">
         <input
           type="search"
           placeholder="Enter a city..."
           required
           class="search-city"
+          id="search-city"
         />
         <input type="submit" value="Search" class="search-button" />
       </form>
       <main>
         <div class="temperature-data">
           <div>
-            <h1 class="city">Sydney</h1>
+            <h1 class="city" id="city">Sydney</h1>
             <p>
               Tuesday 06:50, partly cloudy
               <br />
@@ -59,5 +60,6 @@
         >
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
