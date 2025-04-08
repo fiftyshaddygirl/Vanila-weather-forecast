@@ -6,6 +6,9 @@ function refreshWeather(response) {
   let city = document.querySelector("#city");
   city.innerHTML = response.data.city;
 
+  let country = document.querySelector("#country");
+  country.innerHTML = response.data.country;
+
   let weatherCondition = document.querySelector("#weather-condition");
   weatherCondition.innerHTML = response.data.condition.description;
 
@@ -27,6 +30,7 @@ function refreshWeather(response) {
     response.data.temperature.feels_like
   )}°`;
 
+  console.log(response.data);
   getForecast(response.data.city);
 }
 

@@ -68,6 +68,12 @@ main {
   margin: 20px 0 0 0;
 }
 
+.country {
+  color: #141e46;
+  margin: 10px 0 0;
+  font-size: 15px;
+}
+
 .temperature-data strong {
   color: #ff597b;
 }
@@ -108,6 +114,7 @@ main {
   margin: 2px;
   text-align: center;
   padding: 10px;
+  max-width: 100%;
 }
 
 .forecast-icon {
