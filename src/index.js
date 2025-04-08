@@ -26,9 +26,9 @@ function refreshWeather(response) {
   icon.innerHTML = `<img src="${response.data.condition.icon_url}">`;
 
   let tempFeel = document.querySelector("#temp-feeling");
-  tempFeel.innerHTML = `Feels like ${Math.round(
+  tempFeel.innerHTML = `Feels like <strong>${Math.round(
     response.data.temperature.feels_like
-  )}°`;
+  )}°</strong>`;
 
   console.log(response.data);
   getForecast(response.data.city);

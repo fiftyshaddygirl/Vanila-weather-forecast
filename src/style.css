@@ -18,6 +18,7 @@ main {
   border-top: 1px solid rgba(20, 30, 70, 0.1);
   border-bottom: 1px solid rgba(20, 30, 70, 0.1);
 }
+
 .template {
   background-color: #bad7e9;
   max-width: 700px;
