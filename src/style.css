@@ -30,7 +30,7 @@ main {
   text-align: center;
 }
 .search-city {
-  background-color: #bad7e9;
+  background-color: rgba(186, 215, 233, 0.5);
   color: #ff597b;
   font-weight: 600;
   border: none;
@@ -84,6 +84,39 @@ main {
 .unit {
   font-size: 40px;
   margin-top: 5px;
+}
+
+.weather-forecast-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.forecast-day {
+  text-align: center;
+  font-size: 15px;
+  color: rgba(20, 30, 70, 0.8);
+}
+
+.forecast-icon {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+.forecast-temp strong {
+  color: rgb(255, 89, 123);
+}
+
+.forecast-temp {
+  color: rgba(255, 89, 123, 0.9);
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.temperature-value {
+  margin: 0 5px;
 }
 
 footer {
