@@ -22,6 +22,11 @@ function refreshWeather(response) {
   let icon = document.querySelector("#icon");
   icon.innerHTML = `<img src="${response.data.condition.icon_url}">`;
 
+  let tempFeel = document.querySelector("#temp-feeling");
+  tempFeel.innerHTML = `Feels like ${Math.round(
+    response.data.temperature.feels_like
+  )}°`;
+
   getForecast(response.data.city);
 }
 
@@ -87,6 +92,7 @@ function displayForecast(response) {
         forecastHtml +
         `
     <div class="weather-forecast">
+    <div class = "forecast-data">
       <div class="forecast-day">${formatDay(day.time)}</div>
         <img src="${day.condition.icon_url}" class="forecast-icon"/>
       <div class="forecast-temp">
