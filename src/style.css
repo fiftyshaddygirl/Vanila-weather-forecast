@@ -47,8 +47,9 @@ main {
   color: #bad7e9;
   border: none;
   border-radius: 5px;
-  padding: 15px 20px;
+  padding: 15px 25px;
   font-size: 16px;
+  font-weight: bold;
   margin: 0 10px auto;
   transition: all 200ms ease;
 }
@@ -56,6 +57,7 @@ main {
 .search-button:hover {
   background-color: #ff597b;
   color: #141e46;
+  font-weight: bold;
 }
 
 .temperature-data {
