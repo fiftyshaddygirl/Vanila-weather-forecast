@@ -71,18 +71,19 @@ main {
 }
 
 .icon {
-  font-size: 50px;
-  margin-top: 35px;
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
 }
 
 .temp-value {
   font-size: 120px;
-  margin-left: 10px;
+  line-height: 120px;
 }
 
 .unit {
   font-size: 40px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 footer {
